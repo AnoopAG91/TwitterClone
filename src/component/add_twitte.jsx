@@ -5,7 +5,7 @@
  import WorkHistoryOutlinedIcon from '@mui/icons-material/WorkHistoryOutlined';
  import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
  import InsertPhotoOutlinedIcon from '@mui/icons-material/InsertPhotoOutlined';
-
+ import Image from '../my_image.jpg'
  import { useState } from 'react';
 
 
@@ -23,7 +23,7 @@ const Add_twitte=()=>{
     return (
         <div className={styles.add_twitte} >
             <div>
-            <img src="" alt="" />
+            <img src={Image} alt="" />
             <input type="text" placeholder="What is happening?" onChange={(e)=>{setinputValue(e.target.value)}} />
             </div>
            <br />

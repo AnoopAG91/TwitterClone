@@ -1,6 +1,6 @@
 import styles from './logout_left.module.css'
 import {useState}  from 'react';
-
+import Image from '../my_image.jpg'
 
 
 
@@ -25,7 +25,7 @@ const Logout_left=()=>{
         
         <div className={styles.Logout_left} onClick={hendalepopup} >
                 <div className={styles.name_log_left}>
-                    <img src="" alt="" />
+                    <img src={Image} alt="" />
                     <div>
                     <p>Anoop</p> 
                     <p>ANOOP A G</p>
