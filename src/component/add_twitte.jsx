@@ -23,7 +23,7 @@ const Add_twitte=()=>{
     return (
         <div className={styles.add_twitte} >
             <div>
-            <img src="https://lh3.googleusercontent.com/ogw/AOLn63HZx1GUehJHyQX441QjoFKxma4d0iM9Ip8NpodvVQ=s32-c-mo" alt="" />
+            <img src="" alt="" />
             <input type="text" placeholder="What is happening?" onChange={(e)=>{setinputValue(e.target.value)}} />
             </div>
            <br />

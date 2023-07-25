@@ -25,15 +25,15 @@ const Logout_left=()=>{
         
         <div className={styles.Logout_left} onClick={hendalepopup} >
                 <div className={styles.name_log_left}>
-                    <img src="https://lh3.googleusercontent.com/ogw/AOLn63HZx1GUehJHyQX441QjoFKxma4d0iM9Ip8NpodvVQ=s32-c-mo" alt="" />
+                    <img src="" alt="" />
                     <div>
-                    <p>vishal gupta</p> 
-                    <p>vishalguptadishu</p>
+                    <p>Anoop</p> 
+                    <p>ANOOP A G</p>
                     </div>  
                 </div>
                 <div className={`${styles.logout_pop} ${btnstate ? styles.logout_pop2 : ''}`}  >
                     <div><p>add to existing account</p></div>
-                    <div onClick={clearLS} ><p>vishal gupta</p></div>   
+                    <div onClick={clearLS} ><p>Anoop AG</p></div>   
                 </div>
                 
         </div>
